@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = prompt("Nhập chuỗi")
+    let res = str.split("")
+
+    function findFunction() {
+        for (let i = 0; i < res.length; i++) {
+        if (res[i] === 'a' ||
+            res[i] === 'o' ||
+            res[i] === 'e' ||
+            res[i] === 'u' ||
+            res[i] === 'i') {
+            return true ;
+            } else {
+            return false }
+        }
+    }
+
+    findFunction()
+    console.log(findFunction())
+
+
+
+
+</script>
+
+</body>
+</html>
